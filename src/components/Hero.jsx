@@ -40,14 +40,14 @@ const Hero = () => {
               Hi, I'm{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-eerieBlack text-[500px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Mridul Ajaykumar
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            Innovation is the outcome of a habit,<br className="sm:block hidden" />
+            not a random act.
             </p>
           </div>
           <div
@@ -84,7 +84,7 @@ const Hero = () => {
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[53vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
             alt="shaquille"

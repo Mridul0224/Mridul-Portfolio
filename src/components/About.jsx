@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a data analyst with 3 years of experience in analyzing and interpreting large datasets to uncover insights and improve business performance. I have worked in the health and automotive industry and my expertise lies in statistical modeling, data visualization, and machine learning. I am skilled in languages such as Python, R, and SQL. I am passionate about using data to drive decision-making and am always looking for new challenges and opportunities to learn and grow.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

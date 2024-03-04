@@ -46,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Data Scientist',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Data Analyst',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Project Manager',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Strategist',
     icon: prototyping,
   },
 ];
@@ -124,40 +124,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Data Scientist',
+    company_name: 'Citigroup',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Dec 2023 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Data Scientist | Analyst | Strategist ',
+    company_name: 'Credit Suisse',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Aug 2023 - Dec 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Data Scientist | Analyst | Lead',
+    company_name: 'SAP Concur',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2022 - May 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Data Scientist',
+    company_name: 'Oval SoftTech',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2022 - Sep 2021',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Covid-19 Global Tracker',
+    description: 'to provide insights on the vaccination rollout at a global scale, with a focus on quantifying the speed and scale of the vaccination program on a daily basis.',
     tags: [
       {
         name: 'react',
@@ -173,58 +173,13 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/Mridul0224/COVID-19-Vaccine-Tracker',
+    demo: 'https://public.tableau.com/app/profile/mridul.ajaykumar/viz/GlobalCOVID-19VaccineTracker_17090117719510/CovidVaccineTracker',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Sentiment Analysis',
+    description: `A comprehensive Python project utilizing NLTK, VADER, and transformers for in-depth sentiment analysis on review datasets, showcasing NLP techniques from basic tokenization to advanced sentiment scoring with RoBERTa and BERT models.`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +195,60 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/Mridul0224/Sentiment-Analysis/tree/main',
+    demo: 'https://colab.research.google.com/drive/1xOepwCGracnrtFthbo1W8dZBtZydVuR8?usp=sharing'
+   
   },
   {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: 'project-2',
+    name: 'Finance Dashboard',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Empowering financial wellness, this Python application utilizes Pandas and Matplotlib for managing personal finances, providing deep analysis and user-friendly guidance to enhance budgeting and savings.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: leaderboard,
+    repo: 'https://github.com/Mridul0224/Python-Dashboard-Project',
+    demo: 'https://colab.research.google.com/drive/1fZcEyLlY0SNHiADjUk3sGPEUzgHYcED3?usp=sharing',
+  },
+  {
+    id: 'project-3',
+    name:'Aircraft Review',
+    description: 'Transforming aviation insights through an interactive dashboard that delivers comprehensive aircraft reviews, blending cutting-edge analytics with user-friendly design for unparalleled decision-making support.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: math,
+    repo: 'https://github.com/Mridul0224/Aircraft-Review-Dashboard/tree/main',
+    demo: 'https://public.tableau.com/app/profile/mridul.ajaykumar/viz/AircraftReviewDashboard/AircraftReviewDashboard'
+  },
+  
+  {
+    id: 'project-5',
+    name: 'Sales Insights Analysis',
+    description:'Revolutionizing business strategy, this tool combines MySQL and Power BI for advanced sales analysis and visualization, offering insights to boost sales and market performance with an intuitive interface.',
     tags: [
       {
         name: 'nextjs',
@@ -263,9 +264,10 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/Mridul0224/Sales-Data-Analysis',
+    demo: 'https://app.powerbi.com/view?r=eyJrIjoiMjIwMzg4MDEtYTk4MS00NjlkLTkzOGEtMDc1NDNiZTQ4MDVmIiwidCI6ImYxYzY5NGY1LWQ5NzUtNGU1OC04OTYyLWRjNTA4YjZkMmM1OCIsImMiOjJ9',
   },
 ];
+
 
 export { services, technologies, experiences, projects };

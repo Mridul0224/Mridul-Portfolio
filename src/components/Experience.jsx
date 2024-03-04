@@ -102,10 +102,12 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
-                  '_blank'
+                  'https://amethyst-coraline-92.tiiny.site', // Replace this with the URL to your hosted resume
+                  '_blank', // Open in a new tab
                 )
               }
+              
+              
               onMouseOver={() => {
                 document
                   .querySelector('.download-btn')
@@ -130,5 +132,6 @@ const Experience = () => {
     </>
   );
 };
+
 
 export default SectionWrapper(Experience, 'work');

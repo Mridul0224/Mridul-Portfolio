@@ -3,15 +3,15 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/MAlogo.png';
+import logotext from './logo/MATEXT.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/MridulG.png';
 
-import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
-import prototyping from './icons/prototyping.png';
+import backend from './icons/datanalysis.png';
+import ux from './icons/prm.png';
+import frontend from './icons/datascience.png';
+import prototyping from './icons/strategy.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -23,31 +23,31 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
+import css from './tech/py.png';
+import docker from './tech/pytor.png';
+import figma from './tech/Tableau.png';
+import git from './tech/Spk.png';
+import html from './tech/bigml.png';
 import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
+import nodejs from './tech/awss.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import redux from './tech/Excel.png';
+import tailwind from './tech/pbi.png';
+import typescript from './tech/scikit.png';
+import graphql from './tech/Jupyter.png';
+import postgresql from './tech/TF.png';
+import rubyrails from './tech/sql.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import coverhunt from './company/citi.png';
+import dcc from './company/Oval.png';
+import kelhel from './company/SAP_Concur.png';
+import microverse from './company/credit suisse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import komikult from './projects/covid.png';
+import leaderboard from './projects/personal finance dashboard.jpg';
+import math from './projects/Aircraft.jpg';
+import movie from './projects/sentiment.png';
+import nyeusi from './projects/sales.png';
 import space from './projects/space-hub.png';
 
 export {

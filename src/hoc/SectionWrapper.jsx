@@ -23,4 +23,5 @@ const SectionWrapper = (Component, idName) => {
   return HOC;
 };
 
+
 export default SectionWrapper;
